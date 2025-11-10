@@ -1,0 +1,4 @@
+[submodule "IEEEConference"]
+	path = IEEEConference/ieee-conference
+	url = git@Lithium:LaTeX/IEEEConference.git
+	branch = master
