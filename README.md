@@ -1,0 +1,3 @@
+# IEEEConferenceTemplate
+
+IEEEConferenceTemplate是一个适用于IEEE会议的模板，基于文档类IEEEConference。
