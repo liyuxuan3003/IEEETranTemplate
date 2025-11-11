@@ -11,7 +11,6 @@
 \usepackage{mhchem}
 \usepackage{graphicx}
 \usepackage{tabularray}
-\UseTblrLibrary{booktabs}
 \usepackage[hidelinks]{hyperref}
 \usepackage{cleveref}
 
@@ -29,6 +28,8 @@
 \begin{document}
 
 \maketitle
+
+\tableofcontents
 
 \section{Text}
 
@@ -59,7 +60,7 @@
 \begin{table}
     \centering
     \caption{Table}
-    \begin{tblr}{colspec={XX}}
+    \begin{tblr}{colspec={XX},hline{1,Z}={0.8pt},hline{2}={0.4pt}}
         1&2\\
         3&4\\
     \end{tblr}
