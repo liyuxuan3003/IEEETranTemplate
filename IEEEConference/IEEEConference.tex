@@ -11,6 +11,11 @@
 \usepackage{mhchem}
 \usepackage{graphicx}
 \usepackage{tabularray}
+\UseTblrLibrary{booktabs}
+\usepackage[hidelinks]{hyperref}
+\usepackage{cleveref}
+
+\usepackage{lipsum}
 
 \def\e{\mathrm{e}}
 \def\i{\mathrm{i}}
@@ -24,5 +29,41 @@
 \begin{document}
 
 \maketitle
+
+\section{Text}
+
+\lipsum
+
+\subsection{Foo}
+
+\lipsum[2]
+
+\subsection{Bar}
+
+\lipsum[3]
+
+\section{Math}
+
+\Cref{eq:eq1}
+\begin{equation}
+    x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\label{eq:eq1}
+\end{equation}
+
+\Cref{eq:eq1,eq:eq2}
+\begin{equation}
+    x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\label{eq:eq2}
+\end{equation}
+
+\section{Figure}
+
+\begin{table}
+    \centering
+    \caption{Table}
+    \begin{tblr}{colspec={XX}}
+        1&2\\
+        3&4\\
+    \end{tblr}
+\end{table}
+
 
 \end{document}
