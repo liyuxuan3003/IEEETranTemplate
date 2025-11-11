@@ -2,3 +2,15 @@
 	path = IEEEConference/ieee-conference
 	url = git@Lithium:LaTeX/IEEEConference.git
 	branch = dev
+[submodule "Minimus"]
+	path = IEEEConference/minimus
+	url = git@Lithium:LaTeX/Minimus.git
+	branch = dev
+[submodule "StandaloneSilicon"]
+	path = IEEEConference/standalone-silicon
+	url = git@Lithium:LaTeX/StandaloneSilicon.git
+	branch = dev
+[submodule "MakefileLaTeX"]
+	path = IEEEConference/makefile-latex
+	url = git@Lithium:LaTeX/MakefileLaTeX.git
+	branch = dev
