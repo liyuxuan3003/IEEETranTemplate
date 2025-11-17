@@ -1,16 +1,16 @@
 [submodule "IEEEConference"]
-	path = IEEEConference/ieee-conference
+	path = IEEETran/ieee-conference
 	url = git@Lithium:LaTeX/IEEEConference.git
 	branch = dev
 [submodule "Minimus"]
-	path = IEEEConference/minimus
+	path = IEEETran/minimus
 	url = git@Lithium:LaTeX/Minimus.git
 	branch = dev
 [submodule "StandaloneSilicon"]
-	path = IEEEConference/standalone-silicon
+	path = IEEETran/standalone-silicon
 	url = git@Lithium:LaTeX/StandaloneSilicon.git
 	branch = dev
 [submodule "MakefileLaTeX"]
-	path = IEEEConference/makefile-latex
+	path = IEEETran/makefile-latex
 	url = git@Lithium:LaTeX/MakefileLaTeX.git
 	branch = dev
