@@ -1,6 +1,6 @@
-[submodule "IEEEConference"]
-	path = IEEETran/ieee-conference
-	url = git@Lithium:LaTeX/IEEEConference.git
+[submodule "IEEETran"]
+	path = IEEETran/ieee-tran
+	url = git@Lithium:LaTeX/IEEETran.git
 	branch = dev
 [submodule "Minimus"]
 	path = IEEETran/minimus
