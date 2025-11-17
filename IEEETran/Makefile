@@ -1,4 +1,4 @@
-PROJECT:=IEEEConference
+PROJECT:=IEEETran
 
 include makefile-latex/latex-std-dependence.mk
 DEPS_MAIN_TEX:=${CLSS_IEEE_CONFERENCE}
