@@ -6,7 +6,7 @@ set -euo pipefail
 # Config
 DIR_TEMPLATE="IEEETran"
 FILE_MAIN="IEEETran.tex"
-FILE_README="IEEETran.md"
+FILE_README="IEEETranTemplate.md"
 
 # Usage
 usage() {
