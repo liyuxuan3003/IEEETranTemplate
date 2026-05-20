@@ -28,7 +28,7 @@ cd IEEETranTemplate
 项目的目录结构如下
 
 ```
-IEEETranTemplate       # The root of git repo
+IEEETranTemplate        # The root of git repo
 |- .git
 |- MyProject            # The sub dir of source files (run make here!)
 .  |- build/
