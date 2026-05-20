@@ -38,7 +38,6 @@ IEEETranTemplate        # The root of git repo
 .  |- standalone-silicon/
 .  |- Makefile
 .  |- MyProject.tex
-|- IEEEConference       # Alternative template (conference)
 |- .gitignore
 |- .gitmodules
 |- init.sh
